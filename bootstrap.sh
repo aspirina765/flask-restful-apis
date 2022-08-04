@@ -1,4 +1,4 @@
 #!/bin/sh
 export FLASK_APP=./cashman/index.py
 source $(pipenv --venv)/bin/activate
-flask run -h 127.0.0.1 -p 5051
+flask run -h 127.0.0.1 -p 5000
