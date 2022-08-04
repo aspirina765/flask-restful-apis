@@ -1,0 +1,16 @@
+click==6.7
+Flask==0.12.2
+Flask-Cors==3.0.10
+itsdangerous==0.24
+Jinja2==2.10
+jose==1.0.0
+MarkupSafe==2.0.1
+marshmallow==2.15.0
+python-dotenv==0.20.0
+six==1.16.0
+Werkzeug==0.14.1
+flask
+python-dotenv
+python-jose
+flask-cors
+six

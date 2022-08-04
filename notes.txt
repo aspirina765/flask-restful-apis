@@ -1,0 +1,42 @@
+        "markupsafe": {
+            "hashes": [
+                "sha256:a6be69091dac236ea9c6bc7d012beab42010fa914c459791d627dad4910eb665"
+            ],
+            "version": "~=1.0"
+        },
+
+
+curl http://0.0.0.0:8083/data1/
+
+curl http://localhost:8083/
+
+curl http://localhost:5051/
+
+# inserting a new income
+curl -X POST -H "Content-Type: application/json" -d '{
+    "amount": 300.0,
+    "description": "loan payment"
+}' http://localhost:5051/incomes
+
+# listing all incomes
+curl http://localhost:5051/incomes
+
+curl -X POST -H "Content-Type: application/json" -d '{
+    "prediction": 300.0,
+    "description": "loan payment"
+}' http://0.0.0.0:8083/data2
+
+curl http://0.0.0.0:8083/data2
+
+curl http://0.0.0.0:3010/
+
+curl http://0.0.0.0:3010//api/private/data2
+
+curl -X POST -H "Content-Type: application/json" -d '{
+    "prediction": 300.0,
+    "description": "loan payment"
+}' http://127.0.0.1:5051/data2
+
+curl http://127.0.0.1:5051/data2
+
+
