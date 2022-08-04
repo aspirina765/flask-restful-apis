@@ -25,10 +25,7 @@ curl http://localhost:5000/data1
 
 # Auth0 + Python Api
 
-[![CircleCI](https://circleci.com/gh/auth0-samples/auth0-python-api-samples.svg?style=svg)](https://circleci.com/gh/auth0-samples/auth0-python-api-samples)
-
-
-This repository contains the source code for the [Python API Quickstart](https://auth0.com/docs/quickstart/backend/python).
+This repository contains some of the source code for the [Python API Quickstart](https://auth0.com/docs/quickstart/backend/python).
 
 ## What is Auth0?
 
