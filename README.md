@@ -18,14 +18,9 @@ pipenv install
 Then you can issue requests to your API. For example, with `curl`, you can issue requests like that:
 
 ```bash
-# inserting a new income
-curl -X POST -H "Content-Type: application/json" -d '{
-    "amount": 300.0,
-    "description": "loan payment"
-}' http://localhost:5000/incomes
 
-# listing all incomes
-curl http://localhost:5000/incomes
+# listing all data1
+curl http://localhost:5000/data1
 ```
 
 # Auth0 + Python Api
